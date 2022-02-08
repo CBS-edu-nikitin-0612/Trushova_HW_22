@@ -6,7 +6,7 @@
 
         public CarCollection()
         {
-            cars = new T[]{};
+            cars = Array.Empty<T>();
         }
 
         public void Add(T car)
