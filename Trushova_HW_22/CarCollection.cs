@@ -2,7 +2,7 @@
 {
     internal class CarCollection<T> where T : Car
     {
-        T[] cars;
+        private T[] cars;
 
         public CarCollection()
         {
