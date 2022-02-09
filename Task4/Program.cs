@@ -11,7 +11,7 @@ arraylist.Add(3.14);
 arraylist.Add(0);
 
 
-//Вывод на экран информации о всех машинах
+//Вывод на экран информации обо всех элементах
 Console.WriteLine($"The base has {arraylist.Count} elements:");
 for (int i = 0; i < arraylist.Count; i++)
 {
